@@ -34,7 +34,7 @@ public class ObjectInteraction : MonoBehaviour
 			{
                 if (!visible)
                 {
-                    infoText.text = hit.transform.GetComponent<Text>().text;
+                    infoText.text = hit.transform.GetComponent<ObjectInfo>().name;
                     infoText.GetComponentInParent<Animator>().SetBool("Appear", true);
                     crosshair.color = crosshairHighlight;
                     visible = true;
