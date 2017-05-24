@@ -15,6 +15,8 @@ public class ObjectInteraction : MonoBehaviour
 	[SerializeField]
 	private bool lookedAt = false;
     private bool visible = false;
+    [SerializeField]
+    private Transform prevTransform;
 
 	private void Awake()
 	{
@@ -30,8 +32,10 @@ public class ObjectInteraction : MonoBehaviour
 		{
 			Debug.DrawLine(ray.origin, hit.point);
 
-			if (hit.transform.tag == "Interactable")
+			if (hit.transform.tag == "Interactable" && hit.transform != prevTransform)
 			{
+                infoText.text = hit.transform.GetComponent<ObjectInfo>().name;
+
                 if (!visible)
                 {
                     infoText.text = hit.transform.GetComponent<ObjectInfo>().name;
@@ -39,7 +43,6 @@ public class ObjectInteraction : MonoBehaviour
                     crosshair.color = crosshairHighlight;
                     visible = true;
                 }
-
 
 
 				if (Input.GetMouseButtonDown(0) && clickBuffer <= 0)
@@ -53,6 +56,8 @@ public class ObjectInteraction : MonoBehaviour
 				{
 					clickBuffer -= Time.deltaTime;
 				}
+                prevTransform = hit.transform;
+                //Debug.Log(prevTransform);
 				lookedAt = true;
 			}
 			else if (hit.transform.tag == "Untagged")
