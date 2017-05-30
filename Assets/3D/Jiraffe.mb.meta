@@ -1,0 +1,245 @@
+fileFormatVersion: 2
+guid: ee9fa9d6c3c557b45af2e084ec50cf00
+timeCreated: 1496151562
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: dont_touch_
+    100002: Gir
+    100004: Head
+    100006: //RootNode
+    100008: left_b_leg
+    100010: left_back_leg
+    100012: left_ear
+    100014: Left_eye
+    100016: left_f_leg
+    100018: left_front_foot
+    100020: left_front_leg
+    100022: Left_horn
+    100024: leg_back_foot
+    100026: Main
+    100028: Main_body
+    100030: Neck
+    100032: right_b_leg
+    100034: right_back_foot
+    100036: Right_back_leg
+    100038: Right_ear
+    100040: Right_f_leg
+    100042: right_front_foot
+    100044: right_front_leg
+    100046: Right_horn
+    100048: Righteye
+    100050: Spine
+    100052: tail
+    100054: tongue
+    400000: dont_touch_
+    400002: Gir
+    400004: Head
+    400006: //RootNode
+    400008: left_b_leg
+    400010: left_back_leg
+    400012: left_ear
+    400014: Left_eye
+    400016: left_f_leg
+    400018: left_front_foot
+    400020: left_front_leg
+    400022: Left_horn
+    400024: leg_back_foot
+    400026: Main
+    400028: Main_body
+    400030: Neck
+    400032: right_b_leg
+    400034: right_back_foot
+    400036: Right_back_leg
+    400038: Right_ear
+    400040: Right_f_leg
+    400042: right_front_foot
+    400044: right_front_leg
+    400046: Right_horn
+    400048: Righteye
+    400050: Spine
+    400052: tail
+    400054: tongue
+    4300000: Main_body
+    4300002: Righteye
+    4300004: Left_eye
+    4300006: Right_horn
+    4300008: Left_horn
+    4300010: Right_ear
+    4300012: left_ear
+    4300014: Right_f_leg
+    4300016: left_f_leg
+    4300018: left_b_leg
+    4300020: right_b_leg
+    4300022: tongue
+    4300024: tail
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: left_b_leg
+    13700002: left_ear
+    13700004: Left_eye
+    13700006: left_f_leg
+    13700008: Left_horn
+    13700010: Main_body
+    13700012: right_b_leg
+    13700014: Right_ear
+    13700016: Right_f_leg
+    13700018: Right_horn
+    13700020: Righteye
+    13700022: tail
+    13700024: tongue
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Gir
+        weight: 1
+      - path: Gir/left_b_leg
+        weight: 1
+      - path: Gir/left_ear
+        weight: 1
+      - path: Gir/Left_eye
+        weight: 1
+      - path: Gir/left_f_leg
+        weight: 1
+      - path: Gir/Left_horn
+        weight: 1
+      - path: Gir/Main_body
+        weight: 1
+      - path: Gir/right_b_leg
+        weight: 1
+      - path: Gir/Right_ear
+        weight: 1
+      - path: Gir/Right_f_leg
+        weight: 1
+      - path: Gir/Right_horn
+        weight: 1
+      - path: Gir/Righteye
+        weight: 1
+      - path: Gir/tail
+        weight: 1
+      - path: Gir/tongue
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Main/left_back_leg
+        weight: 1
+      - path: Main/left_back_leg/leg_back_foot
+        weight: 1
+      - path: Main/Right_back_leg
+        weight: 1
+      - path: Main/Right_back_leg/right_back_foot
+        weight: 1
+      - path: Main/Spine
+        weight: 1
+      - path: Main/Spine/dont_touch_
+        weight: 1
+      - path: Main/Spine/dont_touch_/Neck
+        weight: 1
+      - path: Main/Spine/dont_touch_/Neck/Head
+        weight: 1
+      - path: Main/Spine/left_front_leg
+        weight: 1
+      - path: Main/Spine/left_front_leg/left_front_foot
+        weight: 1
+      - path: Main/Spine/right_front_leg
+        weight: 1
+      - path: Main/Spine/right_front_leg/right_front_foot
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
