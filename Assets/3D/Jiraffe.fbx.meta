@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: ee9fa9d6c3c557b45af2e084ec50cf00
-timeCreated: 1496151562
+guid: 515131296595ec948a9f71a99a8434ae
+timeCreated: 1496234904
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -74,7 +74,7 @@ ModelImporter:
     4300020: right_b_leg
     4300022: tongue
     4300024: tail
-    7400000: Take 001
+    7400000: Hover
     9500000: //RootNode
     13700000: left_b_leg
     13700002: left_ear
@@ -113,10 +113,10 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Hover
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 42
+      firstFrame: 12
+      lastFrame: 38
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -199,7 +199,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
